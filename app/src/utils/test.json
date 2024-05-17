@@ -1,0 +1,109 @@
+{
+  "id": "5ngvt7qg1m",
+  "title": "Python Developer Comprehensive Guide",
+  "description": "A complete roadmap for aspiring Python developers, covering from beginner basics to advanced programming techniques.",
+  "tags": ["Python", "Web Development", "Data Science"],
+  "level": "Beginner to Advanced",
+  "imageUrl": "https://cdn.dribbble.com/userupload/12395172/file/original-9e36c7dd33ae718348f381bf91415ef0.jpg?resize=1024x768",
+  "year": 2024,
+  "count": 250,
+  "icons": [
+    "/assets/imgs/python.svg",
+    "/assets/imgs/flask.svg",
+    "/assets/imgs/django.svg",
+    "/assets/imgs/data-analysis.svg"
+  ],
+  "category": "Programming",
+  "courses": [
+    {
+      "id": 1,
+      "stage": "Stage 1: Python Basics",
+      "description": "Start your journey with Python by understanding the core principles and basic programming techniques.",
+      "subStage": {
+        "id": 1,
+        "title": "Python Fundamentals",
+        "icon": "/assets/imgs/python.svg",
+        "childSubStages": [
+          {
+            "id": 1,
+            "title": "Introduction to Python",
+            "description": "Learn the syntax and basic constructs of Python programming.",
+            "link": "https://www.codecademy.com/learn/learn-python-3"
+          },
+          {
+            "id": 2,
+            "title": "Data Structures",
+            "description": "Understand built-in data types and structures in Python.",
+            "link": "https://www.udemy.com/course/python-for-absolute-beginners/"
+          },
+          {
+            "id": 3,
+            "title": "OOP in Python",
+            "description": "Dive into Object-Oriented Programming with Python to manage larger code projects.",
+            "link": "https://www.youtube.com/playlist?list=PL-osiE80TeTsqhIuOqKhwlXsIBIdSeYtc"
+          }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "stage": "Stage 2: Web Development with Python",
+      "description": "Advance your Python skills by learning to build web applications using Python frameworks.",
+      "subStage": {
+        "id": 2,
+        "title": "Python Frameworks",
+        "icon": "/assets/imgs/flask.svg",
+        "childSubStages": [
+          {
+            "id": 1,
+            "title": "Flask for Beginners",
+            "description": "Get started with Flask to create simple web applications.",
+            "link": "https://www.udemy.com/course/python-and-flask-bootcamp-create-websites-using-flask/"
+          },
+          {
+            "id": 2,
+            "title": "Django for Web Apps",
+            "description": "Learn Django to develop robust and scalable web applications.",
+            "link": "https://www.codecademy.com/learn/learn-django"
+          },
+          {
+            "id": 3,
+            "title": "Advanced Web Services",
+            "description": "Explore advanced topics in web development, including RESTful APIs with Django.",
+            "link": "https://www.youtube.com/playlist?list=PLuueT5PsexC99xgXJh62KO-J1wMt1kQ9j"
+          }
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "stage": "Stage 3: Advanced Python",
+      "description": "Master advanced Python techniques and tools to tackle complex programming challenges.",
+      "subStage": {
+        "id": 3,
+        "title": "Advanced Python Programming",
+        "icon": "/assets/imgs/data-analysis.svg",
+        "childSubStages": [
+          {
+            "id": 1,
+            "title": "Python Libraries",
+            "description": "Utilize libraries like NumPy and Pandas for data analysis.",
+            "link": "https://www.codecademy.com/learn/data-processing-pandas"
+          },
+          {
+            "id": 2,
+            "title": "Concurrency in Python",
+            "description": "Learn about threading and multiprocessing to enhance performance.",
+            "link": "https://www.udemy.com/course/python-concurrency/"
+          },
+          {
+            "id": 3,
+            "title": "Decorators and Generators",
+            "description": "Deep dive into Python decorators and generators to write more efficient code.",
+            "link": "https://www.youtube.com/playlist?list=PL-osiE80TeTt2d9bfVyTiXJA-UTHn6WwU"
+          }
+        ]
+      }
+    }
+  ]
+}
